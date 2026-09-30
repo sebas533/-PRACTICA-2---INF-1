@@ -1,0 +1,1 @@
+Coloca aquí configuraciones sanitizadas. Elimina contraseñas, PSK y secretos antes de subirlas.
