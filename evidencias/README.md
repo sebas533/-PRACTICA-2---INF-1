@@ -1,1 +1,0 @@
-Coloca aquí las capturas numeradas de la práctica, siguiendo el orden descrito en el README.
