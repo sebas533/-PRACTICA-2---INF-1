@@ -19,8 +19,9 @@ Site-to-Site.
 
 ## Topología
 
-> Coloca aquí la captura de la topología:
-> 
+> la captura de la topología:
+> <img width="1661" height="800" alt="INFRAESTRUCTURA" src="https://github.com/user-attachments/assets/41192f0c-9cff-4650-868b-32a2bd360ac1" />
+
 
 ## Plan de direccionamiento
 
