@@ -20,7 +20,7 @@ Site-to-Site.
 ## Topología
 
 > Coloca aquí la captura de la topología:
-> `evidencias/01-topologia-general.png`
+> 
 
 ## Plan de direccionamiento
 
