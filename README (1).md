@@ -447,23 +447,6 @@ aparece como salto porque el tráfico viaja encapsulado en el túnel.
 El navegador del usuario accede a `https://10.21.68.130` y carga el sitio del
 servidor, comprobando el servicio HTTPS/443 sobre la VPN.
 
-### VPN desactivada
-
-Se deshabilita temporalmente el túnel IPsec y se comprueba que la
-comunicación entre el usuario y el servidor deje de funcionar. Esto ocurre
-porque desaparece la ruta por el túnel y la ruta *blackhole* descarta el
-tráfico hacia `10.21.68.128/28`.
-
-<!-- Agrega aquí la captura: ![Ping sin VPN](img/NOMBRE.png) -->
-
-### VPN restaurada
-
-Se habilita nuevamente el túnel y se comprueba que la comunicación vuelva
-a funcionar.
-
-<!-- Agrega aquí la captura: ![VPN restaurada](img/NOMBRE.png) -->
-
----
 
 ## Evidencias
 
