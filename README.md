@@ -7,6 +7,8 @@ una red de usuarios mediante VLAN 10 y un servidor web HTTPS. La comunicación
 entre la red de usuarios y el servidor se realiza mediante una VPN IPsec
 Site-to-Site.
 
+## Video Link : https://youtu.be/bPiiF1wPiOI
+
 ## Objetivos
 
 - Configurar la infraestructura de red mediante GUI en FortiGate.
