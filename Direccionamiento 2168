@@ -1,0 +1,25 @@
+## Direccionamiento IP MATRICULA : 2168
+
+El direccionamiento de esta práctica está basado en mi matrícula **2168**.
+Se tomó `21.68` como base de todas las redes:
+
+- Redes privadas (LAN): `10.21.68.x`
+- Enlaces WAN con el ISP: `21.68.1.x` y `21.68.2.x`
+
+| Red | Máscara | Hosts útiles | Uso |
+|---|---|---|---|
+| `10.21.68.0/25` | 255.255.255.128 | 126 | Usuarios (VLAN 10) |
+| `10.21.68.128/28` | 255.255.255.240 | 14 | Servidor web |
+| `21.68.1.0/30` | 255.255.255.252 | 2 | Enlace ISP ↔ FG1 |
+| `21.68.2.0/30` | 255.255.255.252 | 2 | Enlace ISP ↔ FG2 |
+
+| Equipo | Interfaz | Dirección |
+|---|---|---|
+| ISP | hacia FG1 | `21.68.1.1/30` |
+| FG1 | `port1` (WAN) | `21.68.1.2/30` |
+| FG1 | VLAN 10 (gateway) | `10.21.68.1/25` |
+| PC Usuario | DHCP | `10.21.68.10/25` |
+| ISP | hacia FG2 | `21.68.2.1/30` |
+| FG2 | `port1` (WAN) | `21.68.2.2/30` |
+| FG2 | `port2` (LAN) | `10.21.68.129/28` |
+| Servidor Web | HTTPS | `10.21.68.130/28` |
