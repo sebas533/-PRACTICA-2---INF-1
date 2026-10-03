@@ -39,6 +39,9 @@ Site-to-Site.
 
 ![Topología de la práctica](img/INFRAESTRUCTURA.png)
 
+<img width="761" height="403" alt="image" src="https://github.com/user-attachments/assets/f46f419d-47c2-4a3d-bcee-19be832c7412" />
+
+
 - **Sitio 1 (usuarios):** PC de usuario → switch (VLAN 10) → **FortiGate 1 (FG1)**,
   que actúa como gateway, servidor DHCP y extremo de la VPN.
 - **ISP:** router intermedio que simula Internet y conecta ambos FortiGate
